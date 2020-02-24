@@ -4,8 +4,9 @@ OpenSource Telegram RePoster Daemon
 ## Run script
 
 ### Method 1. 24/7 run
-1. `docker container run -d --name opentrd --restart always opentrd`
-2. PROFIT!!!
+1. `docker image build -t opentrd .`
+2. `docker container run -d --name opentrd --restart always opentrd`
+3. PROFIT!!!
 
 ### Method 2. One-time run
 1. `pip3 install -r reqirements.txt`

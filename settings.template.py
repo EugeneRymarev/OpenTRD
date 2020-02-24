@@ -1,0 +1,6 @@
+BACKUP = {
+    # MAIN USER ID: BACKUP USER ID
+    # MAIN CHAT ID: BACKUP CHAT ID
+    -1001111111111: -1002222222222,
+}
+DEBUG = False  # log outgoing events
